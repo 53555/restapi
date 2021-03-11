@@ -1,7 +1,7 @@
 # Restapi - Go Language V-1.14
 Author: Silambarasan
 
-Programming Lang: RestAPI developped using Go language using version 1.14.
+Programming Lang: RestAPI developped using Go language version 1.14.
 
 Features:
 
