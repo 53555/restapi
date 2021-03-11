@@ -16,3 +16,9 @@ Input file: Input file named "input.json" can be used to with your POST call
 When you call encrypt api with your input json file, it will create new file with name "encrypted-file.json" and store all the encrypted content
 
 Decrypt API use the file "encrypted-file.json" and take the content out of it to decrypt it and return that value in your console.
+
+
+Dockerfile:
+
+build: docker build . -t restapi:v1
+run: docker run -d -p 8080:8080 restapi:v1 go-restapi
