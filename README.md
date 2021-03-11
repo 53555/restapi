@@ -21,4 +21,5 @@ Decrypt API use the file "encrypted-file.json" and take the content out of it to
 Dockerfile:
 
 build: docker build . -t restapi:v1
+
 run: docker run -d -p 8080:8080 restapi:v1 go-restapi
