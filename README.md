@@ -22,4 +22,4 @@ Dockerfile:
 
 build: docker build . -t restapi:v1
 
-run: docker run -d -p 8080:8080 restapi:v1 go-restapi
+run: docker run -d -p 8080:8080 restapi:v1 restapi
